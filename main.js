@@ -1,4 +1,4 @@
-/* function compareVersion(version1, version2) {
+const compareVersion = (version1, version2) => {
     const v1 = version1.split('.').map(Number);
     const v2 = version2.split('.').map(Number);
 
@@ -14,7 +14,7 @@
     }
 
     return 0;
-}; */
+};
 
 //export default compareVersion;
 
